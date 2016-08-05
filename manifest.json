@@ -1,0 +1,20 @@
+{
+	"name": "Secure Tags",
+	"version": "0.01",
+	"manifest_version": 2,  
+	"description": "Secure Tags collection for your privacy.",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_title": "Secure Tags",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+          "contextMenus",
+          "tabs"
+        ],
+	"options_page": "options.html",
+	"homepage_url": "http://piccus.github.io",
+	"background": {
+		"page": "background.html"
+	}
+}
